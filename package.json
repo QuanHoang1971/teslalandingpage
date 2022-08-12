@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss-cli@latest build css/tailwind.css -o dist/css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.8",
+    "tailwindcss": "^3.1.8"
+  }
+}
